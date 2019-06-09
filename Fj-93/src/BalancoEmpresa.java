@@ -19,7 +19,7 @@ public class BalancoEmpresa {
             Pagamento pagamento = new Pagamento();
             pagamento.setCnpjPagador(cnpjPagador);
             pagamento.setPagador(nomePagador);
-            divida.getPagamentos().registra(pagamento);
+            divida.registra(pagamento);
         }
     }
 }

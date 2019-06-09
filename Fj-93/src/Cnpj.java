@@ -40,4 +40,9 @@ public class Cnpj {
     public String getValor() {
         return this.valor;
     }
+
+    @Override
+    public String toString() {
+        return this.valor;
+    }
 }
